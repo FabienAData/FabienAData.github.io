@@ -1,1 +1,9 @@
-{"filtersColumns": ["color", "region", "lib_ligne"], "idColumn": "lib_ligne", "mapCenterObjectLat": 46.930071, "mapCenterObjectLng": 2.494603, "mapZoom": 6, "detailed_lineplot_x_axis": "cum_distance", "detailed_lineplot_y_axis": "distance"}
+{
+    "filtersColumns": ["color", "region", "lib_ligne"],
+    "idColumn": "lib_ligne",
+    "mapCenterObjectLat": 46.930071,
+    "mapCenterObjectLng": 2.494603,
+    "mapZoom": 6,
+    "detailed_lineplot_x_axis": "cum_distance",
+    "detailed_lineplot_y_axis": "distance"
+}
