@@ -4,6 +4,30 @@
     "mapCenterObjectLat": 46.930071,
     "mapCenterObjectLng": 2.494603,
     "mapZoom": 6,
+    "globalDataPlotParameters" : {
+        "xAxis": {
+            "columnName": "region",
+            "displayedName" : "région"
+        },
+        "yAxis": [
+            {
+                "columnName": "global_length",
+                "displayedName" : "distance cumulée"
+            }
+        ]
+    },
+    "detailedDataPlotParameters" : {
+        "xAxis": {
+            "columnName": "cum_distance",
+            "displayedName" : "distance cumulée"
+        },
+        "yAxis": [
+            {
+                "columnName": "distance",
+                "displayedName" : "distance"
+            }
+        ]
+    },
     "detailed_lineplot_x_axis": "cum_distance",
     "detailed_lineplot_y_axis": "distance"
 }
