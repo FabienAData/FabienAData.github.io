@@ -6,8 +6,8 @@
     "mapZoom": 6,
     "globalDataPlotParameters" : {
         "xAxis": {
-            "columnName": "week_number",
-            "displayedName" : "Numéro de semaine"
+            "columnName": "color",
+            "displayedName" : "Couleur"
         },
         "yAxis": [
             {
