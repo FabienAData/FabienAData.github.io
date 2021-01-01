@@ -1,33 +1,33 @@
 {
-    "filtersColumns": ["color", "region", "lib_ligne"],
+    "filtersColumns": ["color", "lib_ligne"],
     "idColumn": "lib_ligne",
     "mapCenterObjectLat": 46.930071,
     "mapCenterObjectLng": 2.494603,
     "mapZoom": 6,
     "globalDataPlotParameters" : {
         "xAxis": {
-            "columnName": "region",
-            "displayedName" : "région"
+            "columnName": "week_number",
+            "displayedName" : "Numéro de semaine"
         },
         "yAxis": [
             {
-                "columnName": "global_length",
-                "displayedName" : "distance cumulée"
+                "columnName": "n_interventions_total",
+                "displayedName" : "Nombre d'interventions total"
             }
         ]
     },
     "detailedDataPlotParameters" : {
         "xAxis": {
-            "columnName": "cum_distance",
-            "displayedName" : "distance cumulée"
+            "columnName":  "week_number",
+            "displayedName" : "Numéro de semaine"
         },
         "yAxis": [
             {
-                "columnName": "distance",
-                "displayedName" : "distance"
+                "columnName": "n_interventions_total",
+                "displayedName" : "Nombre d'interventions total"
             }
         ]
     },
-    "detailed_lineplot_x_axis": "cum_distance",
-    "detailed_lineplot_y_axis": "distance"
+    "detailed_lineplot_x_axis": "week_number",
+    "detailed_lineplot_y_axis": "n_interventions_total"
 }
